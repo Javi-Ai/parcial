@@ -1,0 +1,33 @@
+h1{
+    color: red;
+    font-size: 2em;
+    text-align: center;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .product-image {
+    height: 300px;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .product-name {
+    font-weight: bold;
+  }
+  .product-price {
+    text-align: right;
+  }
+  .buy-link {
+    text-decoration: none;
+    color: blue;
+  }
+  .buy-link:hover {
+    text-decoration: underline;
+  }
+  .product-description {
+    margin-top: 10px;
+  }
