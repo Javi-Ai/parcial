@@ -1,35 +1,29 @@
-h1{
-    color: red;
-    font-size: 2em;
-    text-align: center;
-}
-.card-container {
+.container {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  gap: 20px; /* Espacio entre las cards */
 }
+
 .card {
-  flex: 1 1 300px; /* Para que las cards tengan un ancho fijo de 300px */
   border: 1px solid #ccc;
   border-radius: 10px;
+  width: 300px;
+  margin-bottom: 20px;
   padding: 20px;
 }
-.product-image {
-  height: 300px;
-  width: 100%;
-  object-fit: contain;
-  border-radius: 5px;
-}
+
 .product-name {
   font-weight: bold;
 }
+
 .product-price {
   text-align: right;
 }
+
 .buy-link {
   text-decoration: none;
-  color: blue;
 }
+
 .buy-link:hover {
   text-decoration: underline;
 }
