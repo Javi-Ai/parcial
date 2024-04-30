@@ -1,6 +1,4 @@
-/**
- * Demo Styles
- */
+
 
  html {
     height: 100%;
@@ -36,9 +34,6 @@
   a{
     text-decoration: none;
   }
-  /**
-   * Footer Styles
-   */
   
   .footer {
     position: absolute;
